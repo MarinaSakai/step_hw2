@@ -85,7 +85,7 @@ public class Anagram {
             }
           }
           score = (score+1)*(score+1);
-          if(score > max) {
+          if(score >= max) {
             max = score;
             num = i;
           }
